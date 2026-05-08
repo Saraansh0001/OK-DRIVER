@@ -1,0 +1,25 @@
+{
+  "name": "okdriver",
+  "version": "1.0.0",
+  "description": "Production-grade DVR history playback for smart dashcams",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "build": "npm run build --prefix client",
+    "lint": "npm run lint --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saraansh0001/OK-DRIVER.git"
+  },
+  "keywords": [],
+  "author": "OKDriver Engineering",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Saraansh0001/OK-DRIVER/issues"
+  },
+  "homepage": "https://github.com/Saraansh0001/OK-DRIVER#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
