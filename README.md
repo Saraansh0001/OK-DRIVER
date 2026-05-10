@@ -2,6 +2,7 @@
 
 A production-focused smart dashcam playback experience built with React + Zustand on the frontend and Express + JWT auth on the backend.
 
+
 ## What this delivers
 
 - **Canvas-based, clickable 24h timeline** with live playhead
