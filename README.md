@@ -11,6 +11,7 @@ A production-focused smart dashcam playback experience built with React + Zustan
 - **Side-by-side / PiP mode toggle** for operator workflows
 - **JWT-authenticated clip API** with deterministic mock DVR clip data
 
+
 ## Architecture
 
 ### Frontend (`/client`)
@@ -33,6 +34,7 @@ A production-focused smart dashcam playback experience built with React + Zustan
   Global timeline controls (space to play/pause, arrow keys to seek).
 - `lib/api.js`  
   Login + clip fetch API client.
+
 
 ### Backend (`/server`)
 
